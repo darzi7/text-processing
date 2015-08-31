@@ -84,7 +84,7 @@ with open("in.txt", "r", encoding="utf-8") as f:
 
             subject_result_dict[subject] =score
 
-
+            a=0
 
 
         bigestKey = max([[subject_result_dict[key],key] for key in subject_result_dict])[1]
